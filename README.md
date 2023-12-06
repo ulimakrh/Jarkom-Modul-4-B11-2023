@@ -400,3 +400,22 @@ iface eth0 inet static
 `up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.14.0.41`
 
 ## 2. CIDR - Cisco Packet Tracet (CPT)
+#### Topologi
+![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/8cb8617a-9a03-481f-9b7a-ae28e1f59036)
+
+#### Route
+
+#### Tree
+Versi lebih jelas = https://miro.com/app/board/uXjVNIbL4uo=/?share_link_id=840733831653 
+![CIDR (2)](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/84bed0cc-7ee6-4a87-a574-f885e98aa4b1)
+
+#### Penggabungan CIDR
+![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/fe1b91d9-0584-4f64-80da-e0648d0151c0)
+![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/97089faf-b688-4b72-b98a-0460e5c98ad9)
+![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/f3cfe1e2-51f0-45d3-a263-466bedfc5f19)
+![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/42ff4176-f7e1-447b-9e2a-7c00dd997316)
+
+
+#### Pembagian IP
+![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/11ae80bd-f299-43b4-ae8d-9a2679e45314)
+
