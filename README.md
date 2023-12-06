@@ -5,26 +5,23 @@
 | 1 | Muhammad Rafif Tri Risqullah | 5025211009 |
 | 2 | Ulima Kaltsum Rizky Hibatullah | 5025211232 |
 
-Pembagian Node Awal
-
+### Pembagian Node Awal
 ![Subnet VLSM-1](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/55fe77da-9651-477c-afe8-1fe9285e716f)
 
-1. VLSM - GNS3
+## 1. VLSM - GNS3
+### Topologi
+![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/e5fa350b-dbfa-474e-9485-afdcd4ffe136)
 
-Route
-
+#### Route
 ![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/c381705c-2038-4785-ae25-471807d856a8)
 
-Tree
-
+#### Tree
 ![Subnet VLSM-2](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/813f19fc-6e4f-4bc4-a5c6-541e35f34ee8)
 
-Pembagian IP
-
+#### Pembagian IP
 ![image](https://github.com/ulimakrh/Jarkom-Modul-4-B11-2023/assets/114993076/6eb5f02e-f3e5-4420-93d2-05f44d2aafd2)
 
-
-Konfigurasi GNS3
+#### Konfigurasi GNS3
 - Aura
 ```
 Aura
@@ -398,4 +395,8 @@ iface eth0 inet static
 	gateway 10.14.0.129
 ```
 
-2. CIDR - Cisco Packet Tracet (CPT)
+#### Routing
+- Denken
+`up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.14.0.41`
+
+## 2. CIDR - Cisco Packet Tracet (CPT)
